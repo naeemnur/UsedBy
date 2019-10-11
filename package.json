@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "history": "^4.10.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-ga": "^2.7.0",
     "react-helmet": "^5.2.1",
-    "react-loading-skeleton": "^1.2.0",
     "react-scripts": "3.2.0",
     "react-snap": "^1.23.0",
     "short-number": "^1.0.7"

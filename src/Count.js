@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Skeleton from "react-loading-skeleton";
 let shortNumber = require("short-number");
 
 export default class Count extends Component {
@@ -11,15 +10,16 @@ export default class Count extends Component {
   };
 
   componentDidMount() {
-    // const proxyUrl = "https://cors-anywhere.herokuapp.com/";
     const url =
       "https://github-dependents.glitch.me/" +
       this.state.org +
       "/" +
       this.state.repo +
-      "?limit=2";
+      "?limit=1";
 
-    fetch(url)
+    fetch(url, {
+      credentials: "same-origin",
+    })
       .then(res => res.json())
       .then(res => this.setState({ count: res.totalDependants }))
       .catch(() => this.setState({ hasErrors: true }));
