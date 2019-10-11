@@ -28,7 +28,9 @@ export default class Count extends Component {
     const shortCount = shortNumber(totalCount);
     return (
       <div className="count-card">
-        <p>{repoName} is used by</p>
+        <p>
+          <span className="repo-name">{repoName}</span> is used by
+        </p>
         <span className="count-class">{shortCount}</span>
         <div className="repos-name">repositories</div>
       </div>

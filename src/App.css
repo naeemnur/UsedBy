@@ -1544,10 +1544,25 @@ template {
 
 .count-class {
   font-size: 65px;
-  line-height: 1;
+  line-height: 85px;
 }
 
 .bg-blue {
   background: #0001ff;
   color: #fff;
+}
+
+span.repo-name {
+  background: #ddd;
+  padding: 3px 5px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+
+.count-card {
+  border: 1px solid #ddd;
+  padding: 1.5em;
+  font-size: 13px;
+  border-radius: 3px;
 }
