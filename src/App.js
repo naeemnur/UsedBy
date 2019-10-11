@@ -20,15 +20,16 @@ function App() {
       </div>
       <div className="container">
         <div className="row margin-bottom-large">
+          <Count organisation="webpack" repo="webpack" />
           <Count organisation="facebook" repo="react" />
           <Count organisation="vuejs" repo="vue" />
-          <Count organisation="angular" repo="angular" />
         </div>
 
         <div className="row margin-bottom-large">
+          <Count organisation="npm" repo="cli" />
+
           <Count organisation="babel" repo="babel" />
           <Count organisation="tensorflow" repo="tensorflow" />
-          <Count organisation="gatsbyjs" repo="gatsby" />
         </div>
 
         <div className="row margin-bottom-large">
@@ -44,14 +45,15 @@ function App() {
         </div>
 
         <div className="row margin-bottom-large">
-          <Count organisation="webpack" repo="webpack" />
+          <Count organisation="angular" repo="angular" />
+          <Count organisation="jquery" repo="jquery" />
+
           <Count organisation="prettier" repo="prettier" />
-          <Count organisation="npm" repo="cli" />
         </div>
 
         <div className="row margin-bottom-large">
+          <Count organisation="gatsbyjs" repo="gatsby" />
           <Count organisation="jgthms" repo="bulma" />
-          <Count organisation="jquery" repo="jquery" />
           <Count organisation="spring-projects" repo="spring-boot" />
         </div>
       </div>
