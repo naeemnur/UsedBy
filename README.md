@@ -6,13 +6,7 @@
 
 [create-react-app](https://github.com/facebook/create-react-app) as the base with the following dependencies:
 
-- react-helmet
-- react-router-dom
-- react-snap
-- react-ga
-- node-sass
-- github-markdown-css
-- markdown-with-front-matter-loader
+- short-number
 
 #### Commands
 
