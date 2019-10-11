@@ -64,13 +64,29 @@ function App() {
           </div>
         </div>
 
-        <Count organisation="webpack" repo="webpack" />
-        <Count organisation="prettier" repo="prettier" />
-        <Count organisation="npm" repo="cli" />
+        <div className="row margin-bottom-large">
+          <div className="grid-third">
+            <Count organisation="webpack" repo="webpack" />
+          </div>
+          <div className="grid-third">
+            <Count organisation="prettier" repo="prettier" />
+          </div>
+          <div className="grid-third">
+            <Count organisation="npm" repo="cli" />
+          </div>
+        </div>
 
-        <Count organisation="jgthms" repo="bulma" />
-        <Count organisation="jquery" repo="jquery" />
-        <Count organisation="spring-projects" repo="spring-boot" />
+        <div className="row margin-bottom-large">
+          <div className="grid-third">
+            <Count organisation="jgthms" repo="bulma" />
+          </div>
+          <div className="grid-third">
+            <Count organisation="jquery" repo="jquery" />
+          </div>
+          <div className="grid-third">
+            <Count organisation="spring-projects" repo="spring-boot" />
+          </div>
+        </div>
       </div>
     </div>
   );
