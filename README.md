@@ -1,6 +1,6 @@
-## naeemnur.com
+## usedby.dev
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/782122a0-5349-4898-a3b9-0d68f6944c34/deploy-status)](https://app.netlify.com/sites/naeem/deploys) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/800a4137-aa26-422e-893e-1437d6688c68/deploy-status)](https://app.netlify.com/sites/usedby/deploys) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 #### What's inside?
 
