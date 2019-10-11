@@ -154,23 +154,13 @@ p {
   margin: 0 0 1.5625em;
 }
 
-/**
-  * Hyperlink styling
-  * 1. Remove the gray background on active links in IE 10.
-  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
-  */
 a {
   background-color: transparent;
-  /* 1 */
   color: #000;
   text-decoration: none;
   -webkit-text-decoration-skip: objects;
   text-decoration-skip: objects;
-  /* 2 */
   word-wrap: break-word;
-  /**
-    * Improve readability when focused and also mouse hovered in all browsers.
-    */
 }
 
 a:active,
@@ -190,9 +180,6 @@ a:hover,
 .link-block:hover .link-block-styled {
 }
 
-/**
-  * Creates block-level links
-  */
 a.link-block,
 .link-block.link-block-styled {
   color: #272727;
@@ -200,11 +187,6 @@ a.link-block,
   text-decoration: none;
 }
 
-/**
-  * Heading styling for h1 through h6 elements.
-  * Heading class lets you use one heading type for semantics, 
-   style it as another heading type.
-  */
 h1,
 h2,
 h3,
@@ -270,9 +252,6 @@ h4,
   }
 }
 
-/**
-  * Text colors
-  */
 .text-muted {
   color: #808080;
 }
@@ -281,9 +260,6 @@ h4,
   color: blue;
 }
 
-/**
-  * Text alignment
-  */
 .text-center {
   text-align: center;
 }
@@ -302,9 +278,6 @@ h4,
   }
 }
 
-/**
-  * Floats
-  */
 .float-left {
   float: left;
 }
@@ -319,9 +292,6 @@ h4,
   float: right;
 }
 
-/**
-  * Margins
-  */
 .no-margin-top {
   margin-top: 0;
 }
@@ -346,9 +316,6 @@ h4,
   margin-bottom: 2em;
 }
 
-/**
-  * Padding
-  */
 .no-padding-top {
   padding-top: 0;
 }

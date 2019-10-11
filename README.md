@@ -6,8 +6,10 @@
 
 [create-react-app](https://github.com/facebook/create-react-app) as the base with the following dependencies:
 
+- react-snap
+- react-helmet
 - short-number
--
+- history
 
 #### Commands
 
