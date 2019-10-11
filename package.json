@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rimraf build/statoc/js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postbuild": "react-snap"
@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
-    "case-sensitive-paths-webpack-plugin": "^2.2.0"
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
+    "rimraf": "^3.0.0"
   }
 }

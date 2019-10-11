@@ -85,6 +85,10 @@ function App() {
             </a>
           </div>
           <div className="float-right">
+            <a href="https://github.com/naeemnur/UsedBy/issues" target="_blank">
+              Submit
+            </a>{" "}
+            •{" "}
             <a href="https://github.com/naeemnur/usedby" target="_blank">
               View Source
             </a>{" "}
