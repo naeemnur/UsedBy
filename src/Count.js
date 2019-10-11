@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import Skeleton from "react-loading-skeleton";
 let shortNumber = require("short-number");
 
 export default class Count extends Component {
   state = {
     hasErrors: false,
-    organisation: this.props.organisation,
+    org: this.props.org,
     repo: this.props.repo,
     count: 0,
   };
@@ -13,7 +14,7 @@ export default class Count extends Component {
     // const proxyUrl = "https://cors-anywhere.herokuapp.com/";
     const url =
       "https://github-dependents.glitch.me/" +
-      this.state.organisation +
+      this.state.org +
       "/" +
       this.state.repo +
       "?limit=2";
@@ -29,9 +30,9 @@ export default class Count extends Component {
     const totalCount = this.state.count;
     const shortCount = shortNumber(totalCount);
     const repoUrl =
-      "https://github.com/" + this.state.organisation + "/" + this.state.repo;
+      "https://github.com/" + this.state.org + "/" + this.state.repo;
     return (
-      <div className="grid-third">
+      <div className="grid-third margin-bottom-large">
         <a
           href={repoUrl}
           className="count-card"
@@ -46,7 +47,9 @@ export default class Count extends Component {
           <p>
             <span className="repo-name">{repoName}</span> used by
           </p>
-          <span className="count-class">{shortCount || 0}</span>
+          <span className="count-class">
+            {shortCount || <Skeleton width={200} />}
+          </span>
           <div className="repos-name">repositories</div>
         </a>
       </div>
