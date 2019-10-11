@@ -47,9 +47,7 @@ export default class Count extends Component {
           <p>
             <span className="repo-name">{repoName}</span> used by
           </p>
-          <span className="count-class">
-            {shortCount || <Skeleton width={200} />}
-          </span>
+          <span className="count-class">{shortCount}</span>
           <div className="repos-name">repositories</div>
         </a>
       </div>
