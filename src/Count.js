@@ -38,6 +38,7 @@ export default class Count extends Component {
           className="count-card"
           target="_blank"
           rel="noopener noreferrer"
+          key={totalCount}
         >
           <img
             className="chevron"
